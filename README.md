@@ -25,7 +25,7 @@ This project simulates key aspects of data warehouse optimization, including:
     Ensure `data/sales_records.csv` exists and contains sample sales data. A small example is provided. For more noticeable performance differences, increase the number of rows in this CSV file, especially varying the `CustomerSegment` field.
 
 
-##The script will:
+**The script will:**
 
 Initialize/reset the SQLite database (data/sales_warehouse.db).
 Load data from data/sales_records.csv into the Sales table.
