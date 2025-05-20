@@ -7,7 +7,7 @@ This project simulates key aspects of data warehouse optimization, including:
 4.  Measuring the performance of the same query on the optimized schema.
 5.  Implementing and running automated data quality checks.
 
-**Disclaimer:** This is a simplified, illustrative project using Python and SQLite. Real-world data warehouse optimization is far more complex and depends on the specific DWH platform, data volume, and business needs. The performance gains shown here are conceptual and may vary significantly with larger datasets.
+**Disclaimer:** This is a simplified, illustrative project using Python and SQLite.
 
 ## Setup
 
@@ -21,9 +21,6 @@ This project simulates key aspects of data warehouse optimization, including:
     ```bash
     pip install -r requirements.txt
     ```
-4.  **Prepare Data:**
-    Ensure `data/sales_records.csv` exists and contains sample sales data. A small example is provided. For more noticeable performance differences, increase the number of rows in this CSV file, especially varying the `CustomerSegment` field.
-
 
 **The script will:**
 
