@@ -1,0 +1,23 @@
+OrderID,ProductID,CustomerSegment,SaleDate,Quantity,UnitPrice,Discount,TotalSale
+1001,P001,Consumer,2023-01-15,2,50.00,0.0,100.00
+1002,P002,Corporate,2023-01-16,1,200.00,0.1,180.00
+1003,P003,Home Office,2023-01-17,5,15.00,0.0,75.00
+1004,P001,Consumer,2023-01-18,3,50.00,0.05,142.50
+1005,P004,Corporate,2023-01-19,10,5.00,0.0,50.00
+1006,P002,Consumer,2023-01-20,2,200.00,0.15,340.00
+1007,P005,Home Office,2023-01-21,1,500.00,0.2,400.00
+1008,P001,Corporate,2023-02-01,4,50.00,0.0,200.00
+1009,P006,Consumer,2023-02-02,20,2.00,0.0,40.00
+1010,P003,Corporate,2023-02-03,3,15.00,0.0,45.00
+# ... (Add more rows, especially with varying CustomerSegment values for better query demo)
+# For this example, let's add a few more for 'Corporate' to make the query more meaningful
+1011,P007,Corporate,2023-02-05,1,100.00,0.0,100.00
+1012,P008,Corporate,2023-02-06,2,75.00,0.05,142.50
+1013,P001,Corporate,2023-02-07,5,50.00,0.0,250.00
+1014,P002,Consumer,2023-02-10,1,200.00,0.1,180.00
+1015,P009,Home Office,2023-02-12,2,25.00,0.0,50.00
+1016,P010,Corporate,2023-02-15,3,30.00,0.02,88.20
+1017,P004,Consumer,2023-02-18,8,5.00,0.0,40.00
+1018,P001,Corporate,2023-02-20,2,50.00,0.0,100.00
+1019,P002,Home Office,2023-02-22,1,200.00,0.1,180.00
+1020,P003,Consumer,2023-02-25,4,15.00,0.0,60.00
